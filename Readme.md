@@ -26,3 +26,5 @@ For example:
 ```sh
 ./bin/Debug/net8.0/FolderSynchronizer.exe C:\Veeam\SourceFolder C:\Veeam\ReplicaFolder C:\Veeam\sync.log 5
 ```
+
+Note: It's unnecessary to create all the directories before running the program. The program will create them except for the source directory.
